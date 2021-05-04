@@ -93,7 +93,7 @@
                     <input type="hidden" id="userid" name="userid" value="<?php echo $request->userid ?>">
                     
                         <button name="myButtonRequest" value= "1" tupe="submit" class="btn btn-success">
-                            ACCEPT
+                            APPROVE
                         </button>
 
                         <button name="myButtonRequest" value= "0" tupe="submit" class="btn btn-danger">
