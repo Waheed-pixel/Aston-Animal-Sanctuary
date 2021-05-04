@@ -13,18 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('/hello',function(){
-//     return 'Hello World!';
-//    });
 
-
-//    Route::get('list', 'App\Http\Controllers\AccountController@list');
-//    Route::get('show/{id}', 'App\Http\Controllers\AccountController@show');
-//    Route::get('display', [App\Http\Controllers\AccountController::class, 'display'])->name('display_account');
 
 Auth::routes();
 
